@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "L_Rajput_MyFavouriteSports": {
+    "S_Sharma_PunjabiMusic": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "L_Rajput_MyFavouriteSports:build:production"
+              "buildTarget": "S_Sharma_PunjabiMusic:build:production"
             },
             "development": {
-              "buildTarget": "L_Rajput_MyFavouriteSports:build:development"
+              "buildTarget": "S_Sharma_PunjabiMusic:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "L_Rajput_MyFavouriteSports:build"
+            "buildTarget": "S_Sharma_PunjabiMusic:build"
           }
         },
         "test": {
