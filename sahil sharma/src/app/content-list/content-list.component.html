@@ -1,0 +1,40 @@
+<<div class="input">
+    <input type="text" name="title" [(ngModel)]="title">
+    <button (click)="checkTitle()">Submit</button>
+</div>
+
+<p class="message" [style.color]="isFound ? 'green' : 'red'">
+    {{ message }}
+</p>
+  
+<div class="container">
+<div class="card-none">
+    <h2>No Type</h2>
+    <app-content-card *ngFor="let item of contentArray | filterType:''" [content]="item"></app-content-card>
+</div>
+
+<div class="card-drama">
+    <h2>Modern Punjabi</h2>
+    <app-content-card *ngFor="let item of contentArray | filterType:'Modern Punjabi'" [content]="item"></app-content-card>
+</div>
+
+<div class="card-horror">
+    <h2>Romantic</h2>
+    <app-content-card *ngFor="let item of contentArray | filterType:'Romantic'" [content]="item"></app-content-card>
+</div>
+
+<div class="card-fantasy">
+    <h2>Folks</h2>
+    <app-content-card *ngFor="let item of contentArray | filterType:'Folks'" [content]="item"></app-content-card>
+</div>
+
+<div class="card-comedy">
+    <h2>Melody</h2>
+    <app-content-card *ngFor="let item of contentArray | filterType:'Melody'" [content]="item"></app-content-card>
+</div>
+
+</div>
+
+
+
+
