@@ -11,7 +11,7 @@
 Passes event data-->
 <app-create-content (contentAdded)="handleContentSubmission($event)"></app-create-content>
   
-div class="container">
+<div class="container">
 <div class="card-none">
     <h2>No Type</h2>
     <app-content-card *ngFor="let item of contentArray | filterType:''" [content]="item"></app-content-card>
