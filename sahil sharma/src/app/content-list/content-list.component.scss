@@ -1,10 +1,11 @@
 h2{
     text-align: center;
     font-size: 2.2em;
-   
 }
 
-
+.container{
+    margin: 0 20%;
+}
 
 div{
     margin: 0  0 60px 0;
@@ -20,65 +21,53 @@ div{
 }
 
 .card-fantasy{
-    border: 3px solid rgb(238, 41, 238);
-    border-radius: 100px;
+    border: 3px solid darkmagenta;
 }
 
 .card-fantasy > h2{
-    color:rgb(238, 41, 238);
-   
+    color: darkmagenta;
 }
 
 .card-drama{
-    border: 3px solid rgb(16, 67, 50);
-    border-radius: 100px;
+    border: 3px solid darkorange;
 }
 
 .card-drama > h2{
-    color: rgb(16, 67, 50);
-    
+    color: darkorange;
 }
 
 .card-horror{
-    border: 3px solid rgb(83, 0, 139);
-    border-radius: 100px;
+    border: 3px solid darkred;
 }
 
 .card-horror > h2{
-    color: rgb(83, 0, 139);
-    
+    color: darkred;
 }
 
 .card-comedy{
-    border: 3px solid rgb(35, 45, 43);
-    border-radius: 100px;
+    border: 3px solid green;
 }
 
 .card-comedy > h2{
-    color: rgb(35, 45, 43);
-    
+    color: green;
 }
 
 .card-scifi{
-    border: 3px solid rgb(77, 10, 245);
-    border-radius: 100px;
+    border: 3px solid darkcyan;
 }
 
 .card-scifi > h2{
-    color: rgb(77, 10, 245);
-    
+    color: darkcyan;
 }
 
 .card-thriller{
-    border: 3px solid rgb(10, 245, 53);
-    border-radius: 100px;
+    border: 3px solid lightcoral;
 }
 
 .card-thriller > h2{
-    color: rgb(10, 245, 53);
+    color: lightcoral;
 }
 
 .card-none{
     border: 3px solid black;
-    border-radius: 100px;
 }

@@ -11,6 +11,6 @@ import { ContentListComponent } from './content-list/content-list.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Sahil Sharma Punjabi Music';
+  title = 'sahil\'s punjabi music';
 }
 

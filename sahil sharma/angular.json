@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "S_Sharma_PunjabiMusic": {
+    "s_sharma_punjabimusic": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "S_Sharma_PunjabiMusic:build:production"
+              "buildTarget": "s_sharma_punjabimusic:build:production"
             },
             "development": {
-              "buildTarget": "S_Sharma_PunjabiMusic:build:development"
+              "buildTarget": "s_sharma_punjabimusic:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "S_Sharma_PunjabiMusic:build"
+            "buildTarget": "s_sharma_punjabimusic:build"
           }
         },
         "test": {

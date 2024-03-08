@@ -1,6 +1,6 @@
 {
   "name": "s_sharma_punjabimusic",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "generatecomponent": "ng generate component",
     "generatepipe": "ng generate pipe",
@@ -10,7 +10,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:S_Sharma_PunjabiMusic": "node dist/s_sharma_punjabimusic/server/server.mjs"
+    "serve:ssr:s_sharma_punjabimusic": "node dist/s_sharma_punjabimusic/server/server.mjs"
   },
   "private": true,
   "dependencies": {
