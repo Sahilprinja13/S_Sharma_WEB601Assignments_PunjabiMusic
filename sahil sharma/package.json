@@ -1,7 +1,8 @@
 {
   "name": "s_sharma_punjabimusic",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
+    "generateservice": "ng generate service",
     "generatecomponent": "ng generate component",
     "generatepipe": "ng generate pipe",
     "generatedirective": "ng generate directive",
